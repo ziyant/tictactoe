@@ -2,6 +2,18 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Git workflow
+
+After every meaningful change, commit and push to GitHub so work is never lost:
+
+```bash
+git add <files>
+git commit -m "short description of what changed and why"
+git push
+```
+
+Keep commits focused and atomic — one logical change per commit. Never batch unrelated changes into a single commit.
+
 ## Running the app
 
 Open `index.html` directly in a browser — no build step, no server, no dependencies.
